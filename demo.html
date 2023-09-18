@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+
+    </style>
+    <title>Property</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <!--  -->
+    <!-- layout web -->
+    <div class="container-fluid" style="position: relative; left: 0; top: 0; padding: inherit;">
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/hero_bg_1.jpg" class="d-block w-100" alt="..." style="max-height: 100vh; filter:brightness(60%)">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/hero_bg_2.jpg" class="d-block w-100" alt="..." style="max-height: 100vh; filter:brightness(60%)">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/hero_bg_3.jpg" class="d-block w-100" alt="..." style="max-height: 100vh; filter:brightness(60%)">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <!-- end carousel -->
+        <!-- Content carousel -->
+        <div class="content d-flex flex-column justify-content-center align-items-center" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+            <p class="text-white title-layout fs-2" style="font-family: 'Caveat', cursive;">Easiest way to find your dream home</p>
+            <div class="box">
+                <input type="text" name="" id="" class="rounded-pill p-2 mb-2" placeholder="Your ZIP code for City e.g New York" style="min-width: 300px;">
+                <button class="btn btn-success rounded-pill p-2 px-4">Search</button>
+            </div>
+        </div>
+        <!-- end content carousel -->
+    </div>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light text-white fixed-top bg-success rounded" id="navbar" style="z-index: 999">
+        <div class="container">
+            <a class="navbar-brand text-white p-2" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="demo.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Properties
+                          </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Properties.html">Action</a></li>
+                            <li><a class="dropdown-item" href="Properties.html">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Properties.html">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!--  card-->
+    <div class="container">
+        <div class="row text-center mt-5">
+            <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512" width="96" height="96" class="text-success" fill="currentColor"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M357.7 8.5c-12.3-11.3-31.2-11.3-43.4 0l-208 192c-9.4 8.6-12.7 22-8.5 34c87.1 25.3 155.6 94.2 180.3 181.6H464c26.5 0 48-21.5 48-48V256h32c13.2 0 25-8.1 29.8-20.3s1.6-26.2-8.1-35.2l-208-192zM288 208c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H304c-8.8 0-16-7.2-16-16V208zM24 256c-13.3 0-24 10.7-24 24s10.7 24 24 24c101.6 0 184 82.4 184 184c0 13.3 10.7 24 24 24s24-10.7 24-24c0-128.1-103.9-232-232-232zm8 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM0 376c0 13.3 10.7 24 24 24c48.6 0 88 39.4 88 88c0 13.3 10.7 24 24 24s24-10.7 24-24c0-75.1-60.9-136-136-136c-13.3 0-24 10.7-24 24z"/></svg>
+
+                        </h1>
+                        <h5 class="card-title">Our Properties</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mauris vitae mollis consectetur. </p>
+                        <a class="btn btn-link text-dark link1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 640 512" width="96" height="96" class="text-success" fill="currentColor"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M480 0c17.7 0 32 14.3 32 32H624c8.8 0 16 7.2 16 16V176c0 8.8-7.2 16-16 16H512V512H448V192 32c0-17.7 14.3-32 32-32zM276.8 39.7L416 159V512h1l-.2 0H96c-17.7 0-32-14.3-32-32V288H32c-13.4 0-25.4-8.3-30-20.9s-1-26.7 9.2-35.4l224-192c12-10.3 29.7-10.3 41.7 0zM224 208v48H176c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h48v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320h48c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H288V208c0-8.8-7.2-16-16-16H240c-8.8 0-16 7.2-16 16z"/></svg>
+                        </h1>
+                        <h5 class="card-title">Property for Sale</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mauris vitae mollis consectetur. </p>
+                        <a class="btn btn-link text-dark link1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512" width="96" height="96" class="text-success" fill="currentColor"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 0c17.7 0 32 14.3 32 32V62.1l15-15c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-49 49v70.3l61.4-35.8 17.7-66.1c3.4-12.8 16.6-20.4 29.4-17s20.4 16.6 17 29.4l-5.2 19.3 23.6-13.8c15.3-8.9 34.9-3.7 43.8 11.5s3.8 34.9-11.5 43.8l-25.3 14.8 21.7 5.8c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17l-67.7-18.1L287.5 256l60.9 35.5 67.7-18.1c12.8-3.4 26 4.2 29.4 17s-4.2 26-17 29.4l-21.7 5.8 25.3 14.8c15.3 8.9 20.4 28.5 11.5 43.8s-28.5 20.4-43.8 11.5l-23.6-13.8 5.2 19.3c3.4 12.8-4.2 26-17 29.4s-26-4.2-29.4-17l-17.7-66.1L256 311.7v70.3l49 49c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-15-15V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V449.9l-15 15c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l49-49V311.7l-61.4 35.8-17.7 66.1c-3.4 12.8-16.6 20.4-29.4 17s-20.4-16.6-17-29.4l5.2-19.3L48.1 395.6c-15.3 8.9-34.9 3.7-43.8-11.5s-3.7-34.9 11.5-43.8l25.3-14.8-21.7-5.8c-12.8-3.4-20.4-16.6-17-29.4s16.6-20.4 29.4-17l67.7 18.1L160.5 256 99.6 220.5 31.9 238.6c-12.8 3.4-26-4.2-29.4-17s4.2-26 17-29.4l21.7-5.8L15.9 171.6C.6 162.7-4.5 143.1 4.4 127.9s28.5-20.4 43.8-11.5l23.6 13.8-5.2-19.3c-3.4-12.8 4.2-26 17-29.4s26 4.2 29.4 17l17.7 66.1L192 200.3V129.9L143 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l15 15V32c0-17.7 14.3-32 32-32z"/></svg>
+                        </h1>
+                        <h5 class="card-title">Real estate Agent</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mauris vitae mollis consectetur. </p>
+                        <a class="btn btn-link text-dark link1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 640 512" width="96" height="96" class="text-success" fill="currentColor"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 64c14.4 0 22.3-7 30.8-14.4C360.4 41.1 370.7 32 392 32c49.3 0 84.4 152.2 97.9 221.9C447.8 272.1 390.9 288 320 288s-127.8-15.9-169.9-34.1C163.6 184.2 198.7 32 248 32c21.3 0 31.6 9.1 41.2 17.6C297.7 57 305.6 64 320 64zM111.1 270.7c47.2 24.5 117.5 49.3 209 49.3s161.8-24.8 208.9-49.3c24.8-12.9 49.8-28.3 70.1-47.7c7.9-7.9 20.2-9.2 29.6-3.3c9.5 5.9 13.5 17.9 9.9 28.5c-13.5 37.7-38.4 72.3-66.1 100.6C523.7 398.9 443.6 448 320 448s-203.6-49.1-252.5-99.2C39.8 320.4 14.9 285.8 1.4 248.1c-3.6-10.6 .4-22.6 9.9-28.5c9.5-5.9 21.7-4.5 29.6 3.3c20.4 19.4 45.3 34.8 70.1 47.7z"/></svg>
+                        </h1>
+                        <h5 class="card-title">House for Sale</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mauris vitae mollis consectetur. </p>
+                        <a class="btn btn-link text-dark link1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end card -->
+    <!-- pagination -->
+    <div class="container-fluid border-top border-4 border-dark py-2">
+        <nav class="container">
+            <div class="title" style="transform: translateY(125%);">Pagination (1 of 10)</div>
+            <ul class="pagination h-100 justify-content-center">
+                <a href="#" class="page-item page-link mx-1 text-dark bg-light pag1" onclick="goHome()">1</a>
+                <a href="#" class="page-item page-link mx-1 text-dark bg-light pag2" onclick="goProperties()">2</a>
+                <a href="#" class="page-item page-link mx-1 text-dark bg-light pag3" onclick="goContact()">3</a>
+                <a href="#" class="page-item page-link mx-1 text-dark bg-light">4</a>
+                <a href="#" class="page-item page-link mx-1 text-dark bg-light">5</a>
+
+            </ul>
+        </nav>
+    </div>
+    <!-- end pagination -->
+    <!-- footer -->
+    <footer class="bg-light text-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xl-4 flex-column d-flex justify-content-start align-items-start">
+                    <h5 class="text-success fw-bold">Contact</h5>
+                    <div class="btn btn-link text-dark link-hover">Address: 123 Street, City, Country</div>
+                    <div class="btn btn-link text-dark link-hover">Phone:+987654321</div>
+                    <div class="btn btn-link text-dark link-hover">Phone:+123456789</div>
+                    <div class="btn btn-link text-dark link-hover">Email: example@gmail.com</div>
+                </div>
+                <div class="col-md-12 col-xl-4">
+                    <h5 class="text-success fw-bold">Sources</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="btn btn-link text-dark link-hover">About us</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Services</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Vision</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Mission</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Terms</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Privacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Partner</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Bussiness</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Careers</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Blog</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">FAQ</a></li>
+                                <li><a href="#" class="btn btn-link text-dark link-hover">Creative</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-4">
+                    <h5 class="text-success fw-bold">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="btn btn-link text-dark link-hover">Our visions</a></li>
+                        <li><a href="#" class="btn btn-link text-dark link-hover">About us</a></li>
+                        <li><a href="#" class="btn btn-link text-dark link-hover">Contact us</a></li>
+                    </ul>
+                    <div class="d-flex icons">
+                        <i class="fa-solid fab fa-facebook p-1 fs-6 bg-secondary text-dark rounded-circle me-3"></i>
+                        <i class="fa-solid fab fa-twitter p-1 fs-6 bg-secondary text-dark rounded-circle me-3"></i>
+                        <i class="fa-solid fab fa-instagram p-1 fs-6 bg-secondary text-dark rounded-circle me-3"></i>
+                        <i class="fa-solid fab fa-linkedin p-1 fs-6 bg-secondary text-dark rounded-circle me-3"></i>
+                        <i class="fa-solid fab fa-youtube p-1 fs-6 bg-secondary text-dark rounded-circle me-3"></i>
+                        <i class="fa-solid fab fa-pinterest p-1 fs-6 bg-secondary text-dark rounded-circle me-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="./javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
